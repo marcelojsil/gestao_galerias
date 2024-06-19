@@ -1,0 +1,9 @@
+create database imobiliaria;
+
+CREATE TABLE `imobiliaria`.`adm_user` (
+    `id` INT NOT NULL AUTO_INCREMENT , 
+    `user` VARCHAR(10) NOT NULL , 
+    `pwd` VARCHAR(8) NOT NULL , 
+    `email` VARCHAR(50) NOT NULL , 
+    `categ` VARCHAR(20) NOT NULL , 
+PRIMARY KEY (`id`)) ENGINE = InnoDB;
